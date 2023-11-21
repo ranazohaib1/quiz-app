@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Identify the one which is used to pass data to components from outside",
+        "options": ["Render with arguments", "setState", "PropTypes", "Props"],
+        "answer": "Props"
+    },
+    {
+        "question": "What are arbitrary inputs of components in react also known as?",
+        "options": ["Elements", "Props", "Keys", "Ref"],
+        "answer": "Props"
+    },
+    {
+        "question": "In MVC, what does React.js act as?",
+        "options": ["Model", "Controller", "View", "Middleware"],
+        "answer": "View"
+    },
+    {
+        "question": "Among The following options, choose the one which helps react for keeping their data uni-directional?",
+        "options": ["Dom", "Flux", "JSX", "Props"],
+        "answer": "Flux"
+    },
+    {
+        "question": "Using which of the following command can prevent default behaviour at in react?",
+        "options": ["PreventDefault()", "AvoidDefault()", "RevokeDefault()", "None of the above"],
+        "answer": "PreventDefault()"
+    }
+]
