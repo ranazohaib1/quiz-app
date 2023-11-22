@@ -14,7 +14,7 @@
     background-color: black;
     padding-bottom: 20px;
     padding-top: 20px;
-
+    border-radius: 5px;
 }
 
 .quiz-bar {
@@ -26,21 +26,29 @@
 
 .quiz-questions {
     display: flex;
-    justify-content: start;
-    padding-left: 20px;
-
-}
-.quiz-questions {
-    display: flex;
-    justify-content: start;
-    padding-left: 20px;
+    justify-content: start !important;
+    /* padding-left: 20px; */
+    text-align: start;
 }
 
-.quiz-options {
+.quiz-option-box {
+    width: 100%;
+    background-color: azure;
+    margin: 10px 0px 0px 0px;
+    color: black;
+    border-radius: 5px;
+    height: 35px;
     display: flex;
-    justify-content: start;
-    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
 }
+
+.quiz-option {
+    display: flex;
+    justify-content: start !important;
+    padding-left: 10px;
+}
+
 
 .quiz-button {
     width: 90%;
